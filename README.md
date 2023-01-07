@@ -13,6 +13,12 @@
 
 - **Angular CLI** - <https://angular.io/cli#installing-angular-cli>
 
+- **Editor de textos ou IDE**: atualmente há muitas opções, mas destaco estas:
+  - [VisualStudioCode](https://code.visualstudio.com/)
+  - [Nodepad++](https://notepad-plus-plus.org/)
+  - [WebStorm](https://www.jetbrains.com)
+  - [Brackets](https://brackets.io/)
+
 ### Conhecimentos desejáveis
 
 - Lógica de Programação
