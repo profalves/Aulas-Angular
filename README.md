@@ -48,7 +48,7 @@
 ### Ementa
 
 - **Semana 1**:
-  - Git e Github
+  - [Git e Github](semana-1/aula-01/git_github.md)
   - Reintrodução ao Javascript
     - *state*
     - *events*
