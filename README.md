@@ -50,7 +50,7 @@
 - **Semana 1**:
   - [Git e Github](semana-1/aula-01/git_github.md)
   - Reintrodução ao Javascript
-    - *state*
+    - [*state*](semana-1/aula-02/state.md)
     - *events*
     - *context*
   - Web Components
