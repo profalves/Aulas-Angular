@@ -114,7 +114,7 @@ Conflitos no Git são bastante comuns e **acontecem sempre quando o mesmo arquiv
 - <https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/>
 - <https://medium.com/luizalabs/pull-merge-requests-seguindo-boas-pr%C3%A1ticas-8a7bbbad0ea7>
 
-#### Links dos alunos:
+#### Links dos alunos
 
 - <https://www.sourcetreeapp.com/>
 - <https://nitayneeman.com/posts/understanding-semantic-commit-messages-using-git-and-angular/>
