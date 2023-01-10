@@ -116,4 +116,4 @@ const Update = Nanny(State)
 
 ## Desafio
 
-Crie uma simulação simples de carrinho de compras de loja virtual. Use o state para armazenar informações e poder calcular o valor total do pedido.
+Crie uma calculadora, o máximo que puder como uma calculadora real, contanto que esta seja gerenciada por um state.
