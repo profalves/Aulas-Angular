@@ -113,6 +113,7 @@ Conflitos no Git são bastante comuns e **acontecem sempre quando o mesmo arquiv
 - <https://git-scm.com/>
 - <https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/>
 - <https://medium.com/luizalabs/pull-merge-requests-seguindo-boas-pr%C3%A1ticas-8a7bbbad0ea7>
+- <https://linuxhandbook.com/git-switch-checkout/>
 
 #### Links dos alunos
 
