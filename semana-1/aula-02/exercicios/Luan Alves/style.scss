@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+$base-color: #c4c4c4;
+
+@mixin inputConf($width){
+    width: $width;
+    padding: 10px;
+    border-radius: 10px;
+    border: $base-color;
+    font-size: 20px;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+    ::-webkit-scrollbar {
+		background: $base-color;
+		border-radius: 10px;
+		width: 10px;
+		height: 10px;
+	}
+
+	::-webkit-scrollbar-button {
+		display: none;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: lighten($base-color, 10%);
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: $base-color;
+		border-radius: 10px;
+
+		&:hover {
+			background: darken($base-color, 10%);
+		}
+	}
+}
+
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+
+    .card{
+        padding: 10px;
+        box-shadow: 0px 0px 5px #00000013;
+        border-radius: 10px;
+        background-color: #f8f8f8;
+
+        &:hover{
+            transition: .2s;
+            box-shadow: 0px 0px 5px #0000002f;
+        }
+
+        &_name{
+            font-weight: 700;
+        }
+
+        &_desc{
+            color: #808080;
+        }
+
+        &_price{
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        &_control{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+
+            button{
+                height: 50px;
+                width: 50px;
+                border-radius: 10px;
+                background-color: lighten($base-color, 10%);
+                border: none;
+            }
+
+        }
+
+        .btn{
+            width: 100%;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+
+            &:hover{
+                background-color: darken($base-color, 30%);
+                cursor: pointer;
+            }
+        }
+
+        .add-btn{
+            background-color: $base-color;
+            color: #fff;
+        }
+
+        .remove-btn{
+            background-color: darken($base-color, 20%);
+            color: #fff;
+        }
+    }
+
+    .product-container{
+        flex: 2;
+        overflow: auto;
+        padding: 0 5px;
+
+        #productList{  
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+            grid-gap: 1rem;
+            overflow: auto;
+        }
+    }
+
+    .cart-container{
+        width: 100%;
+        min-width: 300px;
+        background-color: #EDEDF4;
+        border-radius: 10px;
+        padding: 10px;
+        flex: 1;
+
+        .cart-wrapper{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            #cartList{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                overflow: auto;
+                padding: 5px;
+            }
+
+            .cart-footer{
+                margin-top: auto;
+
+                &_session{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 5px;
+
+                    span:first-child{ font-weight: 700; }
+                    span:last-child{ font-size: 20px; }
+                    input{
+                        @include inputConf(75px)
+                    }
+
+                    &:last-child{
+                        border-top: 1px solid $base-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.session-title{
+    width: 100%;
+    font-size: 20px;
+    // padding: 20px;
+
+    h3{
+        margin: 0px;
+    }
+}
