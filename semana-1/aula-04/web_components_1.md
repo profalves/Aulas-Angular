@@ -174,7 +174,7 @@ shadow.appendChild(para);
 
 ## Desafio
 
-Crie um relógio ou uma contagem regressiva com web components
+Crie um relógio ou uma contagem regressiva com web components. Ou seja mais arrojado e faça qualquer um dos ultimos exercícios usando Web Components.
 
 [//]: <> (Video todo list: https://www.youtube.com/watch?v=0QpyCn3BmGY)
 [//]: <> (Exemplo: https://www.youtube.com/watch?v=fZZAt0Sbz5k)
