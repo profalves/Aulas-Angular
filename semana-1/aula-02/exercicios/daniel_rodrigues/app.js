@@ -1,8 +1,9 @@
 import { Nanny, html } from "https://cdn.skypack.dev/nanny-state"
 
 const discountCoupons = [
-  { name: "50OFF", offPercent: 50 },
-  { name: "25OFF", offPercent: 25 },
+  { name: "10OFF", offPercent: 10 },
+  { name: "15OFF", offPercent: 15 },
+  { name: "20OFF", offPercent: 20 },
 ];
 
 const items = [
