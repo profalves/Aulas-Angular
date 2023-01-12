@@ -1,17 +1,18 @@
 import { Nanny, html } from "https://cdn.skypack.dev/nanny-state"
 
 const discountCoupons = [
-  { name: "50OFF", offPercent: 50 },
-  { name: "25OFF", offPercent: 25 },
+  { name: "10OFF", offPercent: 10 },
+  { name: "15OFF", offPercent: 15 },
+  { name: "20OFF", offPercent: 20 },
 ];
 
 const items = [
-  { id: 1, nameName: "Shirt 1", img: "./assets/shirt.jpg", price: 85.9, qtd: 0  },
-  { id: 2, nameName: "Shirt 2", img: "./assets/shirt.jpg", price: 100.0, qtd: 0  },
+  { id: 1, nameName: "Shirt 1", img: "./assets/shirt.jpg", price: 30.5, qtd: 0  },
+  { id: 2, nameName: "Shirt 2", img: "./assets/shirt.jpg", price: 40.0, qtd: 0  },
   { id: 3, nameName: "Shirt 3", img: "./assets/shirt.jpg", price: 50.5, qtd: 0  },
-  { id: 4, nameName: "Shirt 4", img: "./assets/shirt.jpg", price: 35.8, qtd: 0  },
-  { id: 5, nameName: "Shirt 5", img: "./assets/shirt.jpg", price: 95.8, qtd: 0  },
-  { id: 6, nameName: "Shirt 6", img: "./assets/shirt.jpg", price: 36.9, qtd: 0  },
+  { id: 4, nameName: "Shirt 4", img: "./assets/shirt.jpg", price: 75.5, qtd: 0  },
+  { id: 5, nameName: "Shirt 5", img: "./assets/shirt.jpg", price: 45.8, qtd: 0  },
+  { id: 6, nameName: "Shirt 6", img: "./assets/shirt.jpg", price: 60.9, qtd: 0  },
 ];
 
 const Items = (item, state) =>
