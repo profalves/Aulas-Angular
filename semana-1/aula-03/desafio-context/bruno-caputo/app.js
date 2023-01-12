@@ -1,5 +1,6 @@
 // Hamburger Shop
 // Code executed in browser console
+"use strict";
 
 // Default Ingredients
 var ingredients = ["Pão", "Hambúrguer", "Queijo"];
