@@ -1,0 +1,28 @@
+.image{
+    width: "fit-content";
+    height:100px;
+    margin:0;
+    margin-bottom: 15px;
+    padding:5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1{
+    background-image: url("/assets/smarttv.png");
+ }
+
+ .img2{
+     background-image: url("/assets/smartphone.png");
+  }
+  
+
+.img3{
+    background-image: url("/assets/notebook.png");
+ }
+
+ .btn-click {
+   cursor: pointer;
+   color: #aaaaaa !important;
+ }
