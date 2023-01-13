@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; min-height: 100%;">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body
+	style="display: flex; align-items: center; justify-content: center; flex-direction: column; height: 100%; min-height: 100%;"
+	id="container">
+	<label for="email" style="margin-bottom: 4px;">Check if your e-mail is valid</label>
+	<input type="text" name="email" id="email" style="height: 20px; width: 280px; padding: 4px; border-radius: 3px;">
+	<div id="modal"
+		style="width: 60%; height: 50%; z-index: 200; background-color: aliceblue; display: flex; align-items: center; justify-content: center; font-size: larger; position: absolute;">
+		<span id="message"></span>
+	</div>
+	<script type="module" src="app.js"></script>
+</body>
+
+</html>
