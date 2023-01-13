@@ -1,16 +1,18 @@
-/*Crie um formulario de newsletter, onde valide o email se é um email válido e que ao enviar, faça um feedback ao usuário informando que ele foi cadastrado com sucesso.*/
-
+// Variables
 let input = document.getElementById('email');
 let message = document.querySelector('#message');
 let modal = document.getElementById('modal');
 let container = document.getElementById('container');
 
+// Function hide the modal when application initiate
 function init() {
 	modal.style.display = 'none';
 }
 
+// Run ini
 init();
 
+// Function to verify the email on inputbox change
 function inputOnChange(i) {
 	if (input.value.includes('@') && input.value.includes('.com') && !input.value.startsWith('@')) {
 		message.setAttribute('hidden', false);
@@ -25,10 +27,11 @@ function inputOnChange(i) {
 	}
 }
 
+// On click to close modal
 container.onclick = function (e) {
-	e.stopPropagation();
 	message.setAttribute('hidden', true);
 	modal.style.display = 'none';
 }
 
+// Call the function on change of the input box
 input.addEventListener('change', inputOnChange)
