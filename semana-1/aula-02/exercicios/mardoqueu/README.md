@@ -5,7 +5,8 @@
   </a>
 </p>
 
-> Shopping cart page in JavaScript built for best practices for bootcamp eldorado
+> Crie uma simulação simples de carrinho de compras de loja virtual. Use o state para armazenar informações e poder calcular o valor total do pedido.
+
 
 ### 🏠 [Homepage](https://github.com/Mardoqueu/shopping-cart-js)
 
