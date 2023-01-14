@@ -1,0 +1,24 @@
+html {
+	font-size: 200%;
+}
+
+body, html {
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	padding: 2em 0;
+	text-align: center;
+}
+
+.clock {
+	margin: auto;
+}
+
+.current-time {
+	font-size: 5.4rem;
+	margin: 1em 0;
+}
+

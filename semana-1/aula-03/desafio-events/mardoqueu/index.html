@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <h1>Newsletter JS</h1>
+        <br />
+        <p class="text-center mt-2">
+          A newsletter is a printed or electronic report containing news concerning the activities of a business or an organization that is sent to its members, customers, employees or other subscribers.
+        </p>
+      </section>
+      <br />
+
+      <form id="form-subscribe" action="#">
+        <div id="input-group">
+          <input type="text" name="email" id="email" placeholder="Your Email" />
+          <button class="btn" type="submit" onclick="submitForm()">
+            Submit
+          </button>
+          <span id="message"> </span>
+        </div>
+      </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
