@@ -49,6 +49,7 @@ function onRemoveDiscount() {
     discount = 0;
     $("#delDiscount")[0].hidden = true;
     $("#applyDiscount")[0].hidden = false;
+    $("#discountCoupon")[0].value = "";
     onCalculateValues();
 }
 
