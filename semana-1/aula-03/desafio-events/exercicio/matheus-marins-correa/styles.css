@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+}
+
+.formulario {
+    padding: 4rem;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.form-label {
+    font-weight: 500;
+}
