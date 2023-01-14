@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    padding: 20px;
+    background: azure;
+}
+
+.produto {
+    margin: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.carrinhoCompra {
+    width: 40%;
+    height: 90vh;
+    display: flex;
+}
+
+.listaItens {
+    padding: 5px;
+}
+
+.totalCarrinho {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.botao-comprar {
+    background: lightsteelblue;
+    border: 1px solid rgb(74, 108, 152);
+    padding: 5px;
+    border-radius: 5px;
+}
