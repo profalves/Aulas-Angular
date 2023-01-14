@@ -52,9 +52,9 @@ function colocarCarrinho(codigo) {
     const produto = items.filter(e => e.codigo === codigo)[0];
 
     changeState(() => {
-        const produto_carrinho = carrinho.produtos.findIndex(e => e.codigo === codigo)
-        if (produto_carrinho > -1) {
-            carrinho.produtos[produto_carrinho].qtd += 1
+        const produtos_carrinho = carrinho.produtos.findIndex(e => e.codigo === codigo)
+        if (produtos_carrinho > -1) {
+            carrinho.produtos[produtos_carrinho].qtd += 1
         } else {
             produto.qtd = 1
             carrinho.produtos.push(produto)
@@ -73,17 +73,17 @@ function changeState(callback) {
 function renderDOM() {
     if (carrinho.desconto > 0) {
         $('#total').innerHTML = carrinho.total - (carrinho.total * carrinho.desconto)
-        renderItensCarrinho()
+        renderItens()
     } else {
         $('#total').innerHTML = carrinho.total
-        renderItensCarrinho()
+        renderItens()
     }
 }
 
-function renderItensCarrinho() {
+function renderItens() {
     let lista_carrinho = ""
     carrinho.produtos.forEach(e => {
-        lista_carrinho += `<li>
+        lista_carrinho += `<li class="listaItens">
         <span>${e.qtd} u. - </span>
         ${e.descricao} <input type="button" value="Remover" onclick="removerItem(${e.codigo})">
         </li>`
@@ -93,11 +93,11 @@ function renderItensCarrinho() {
 
 function removerItem(codigo) {
     changeState(() => {
-        const produto_carrinho = carrinho.produtos.findIndex(e => e.codigo === codigo)
-        if (produto_carrinho > -1 && carrinho.produtos[produto_carrinho].qtd > 1) {
-            carrinho.produtos[produto_carrinho].qtd -= 1
+        const produtos_carrinho = carrinho.produtos.findIndex(e => e.codigo === codigo)
+        if (produtos_carrinho > -1 && carrinho.produtos[produtos_carrinho].qtd > 1) {
+            carrinho.produtos[produtos_carrinho].qtd -= 1
         } else {
-            carrinho.produtos.splice(produto_carrinho, 1)
+            carrinho.produtos.splice(produtos_carrinho, 1)
         }
         carrinho.total = carrinho.produtos.reduce((a, b) => {
             return a + (b.valor * b.qtd)

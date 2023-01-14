@@ -1,15 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .main {
     display: flex;
     padding: 20px;
-}
-
-.produtos {
-    width: 50%;
+    background: azure;
 }
 
 .produto {
@@ -18,34 +10,28 @@
 }
 
 .titulo {
-    font-size: 3rem;
+    font-size: 40px;
     margin: 20px 0;
 }
 
-.carrinho {
+.carrinhoCompra {
     width: 40%;
     height: 90vh;
     display: flex;
 }
 
-.carrinho>.detalhes {
-    position: fixed;
-    text-align: center;
-}
-
-#lista-carrinho {
-    list-style-type: none;
-    margin: 20px 0;
+.listaItens {
+    padding: 5px;
 }
 
 .totalCarrinho {
-    font-size: 2rem;
     margin: 20px 0;
+    font-size: 25px;
 }
 
 .botao-comprar {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 5px;
     background: lightsteelblue;
+    border: 1px solid rgb(74, 108, 152);
+    padding: 5px;
+    border-radius: 5px;
 }
