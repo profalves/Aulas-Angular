@@ -11,10 +11,13 @@ Para esta semana, você irá criar um carrinho de compras usando **Angular**. Fa
 - Também precisa mostrar o **Total** dos valores dos produtos
 - Poderá ter o desconto adicionando através de um cupom (Este cupom é uma string que representa exatamente o valor de um desconto)
 - Se seu carrinho tem desconto então precisa ter Sub-total
+- Preciso ter como excluir o produto do carrinho
 
-Para enviar, envia sua branch em um pull request neste repo e o link lá no classroom
+Qualquer comportamento ou funcionalidade fora dos descritos acima, serão considerados extras e ajudarão no seu destaque no curso.
 
-Dúvidas podem ser tiradas criando issues do repositorio para compartilhar com todos. Me procure no linkdin em casos de dificuldades particulares
+Para enviar, envia sua branch em um pull request neste repo e o link lá no classroom.
+
+Dúvidas podem ser tiradas criando issues do repositorio para compartilhar com todos. Me procure no linkdin em casos de dificuldades particulares.
 
 Boa sorte e um ótimo trabalho. Let's code now!
   
