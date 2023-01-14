@@ -1,6 +1,6 @@
 # Desafio da semana 1
 
-Esta semana você estou sobre os conceitos básicos de javascript para saber trabalhar com *state*, *context* e *events*. Também aprender o que é a base de um web component e usar typescript para desenvolver. Agora está entrando no Angular onde usa tudo isso que já vimos.
+Esta semana você estudou sobre os conceitos básicos de javascript para saber trabalhar com *state*, *context* e *events*. Também pôde aprender o que é a base de um web component e usar typescript para desenvolver. Agora está entrando no Angular onde usa tudo isso que já vimos.
 
 Para esta semana, você irá criar um carrinho de compras usando **Angular**. Faça o mais funcional que puder, na tentativa de replicar os comportamentos de um carrinho de lojas virtuais:
 
@@ -15,9 +15,9 @@ Para esta semana, você irá criar um carrinho de compras usando **Angular**. Fa
 
 Qualquer comportamento ou funcionalidade fora dos descritos acima, serão considerados extras e ajudarão no seu destaque no curso.
 
-Para enviar, envia sua branch em um pull request neste repo e o link lá no classroom.
+Para enviar, suba seu projeto em um repositório no github e nos envia o link. Dessa vez não será via Pull Request
 
-Dúvidas podem ser tiradas criando issues do repositorio para compartilhar com todos. Me procure no linkdin em casos de dificuldades particulares.
+Dúvidas podem ser tiradas criando ***issues*** no repositorio para compartilhar com todos. Me procure no linkedin em casos de dificuldades particulares.
 
 Boa sorte e um ótimo trabalho. Let's code now!
   
