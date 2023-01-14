@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#form-newletter input{
+
+    margin: 5px;
+    width: 90%;
+    padding: 10px;
+
+}
+
+#botao-submit{
+
+    background-color: black;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#botao-submit:hover{
+
+    cursor: pointer;
+    
+}
+
+.main {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#form-newletter {
+
+    display: flex;
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: .1px whitesmoke solid;
+    border-radius: 10px;
+    background-color: bisque;
+    
+
+}
+
+.modal {
+
+    width: 15vw;
+    height: 10vh;
+    z-index: 1000;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    transition: all 2s linear;
+
+}
+
+.modal:hover {
+
+    bottom: 10;
+
+}
+
+.errado {
+
+    color: red;
+    visibility: visible;
+
+}
+
+
+.certo {
+
+    color: green;    
+    visibility: visible;
+
+}
+
+.invisivel {
+  
+    visibility: hidden;
+
+}
+
+.visivel {
+  
+    visibility: visible;
+
+}
