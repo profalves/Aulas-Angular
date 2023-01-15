@@ -1,0 +1,59 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form input {
+  margin: 5px;
+  width: 50%;
+  padding: 10px;
+}
+
+#form {
+  display: flex;
+  width: 40%;
+  height: 70%;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: .1px whitesmoke solid;
+  border-radius: 5px;
+  background-color: rgb(178, 202, 209);
+}
+
+.incorreto {
+  color: red;
+  visibility: visible;
+}
+
+.correto {
+  color: green;
+  visibility: visible;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subTitle {
+  margin-bottom: 20px;
+}
+
+#botao {
+  background-color: rgb(61, 63, 40);
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.tooltip {
+  padding: 10px;
+  margin-top: 20px;
+}
