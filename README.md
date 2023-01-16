@@ -49,12 +49,12 @@
 
 - **Semana 1**:
   - [Git e Github](semana-1/aula-01/git_github.md)
-  - Reintrodução ao Javascript
+  - ***Reintrodução ao Javascript***
     - [*state*](semana-1/aula-02/state.md)
     - [*context*](semana-1/aula-03/context.md)
     - [*events*](semana-1/aula-03/eventos_js.md)
   - [Web Components](semana-1/aula-04/web_components_1.md)
-  - Typescript
+  - [Typescript](semana-1/aula-05/typescipt.md)
   - Fundamentos de Angular
 - **Semana 2**:
   - Explorando o Framework
