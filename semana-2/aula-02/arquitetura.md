@@ -61,6 +61,11 @@ Um **Serviço** é uma abstração do Angular utilizado *para isolar a lógica d
 
 ---
 
-## Docs
+## Desafio
 
-- <>
+Escolha uma das implementações para praticar o uso de um serviço:
+
+1. Crie um projeto To-do-list com um serviço que forneça suas funcionalidades (CRUD)
+2. Em seu projeto usado na atividade semanal, o carrinho de compras, isole as sua lógica de negócio em um serviço para poder dar manutenção as funcionalidades do carrinho através deste.
+
+Ambas devem ser colocadas em um repositório na nuvem (github, gitlab, etc.) e o link enviado para a atividade disponibilizada no classroom
