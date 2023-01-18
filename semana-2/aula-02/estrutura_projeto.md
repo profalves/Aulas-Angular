@@ -4,7 +4,7 @@ Ao iniciarmos o desenvolvimento de uma aplicação web, uma das perguntas que ve
 
 Para uma aplicação pequena, a estrutura padrão gerada pelo Angula CLI é adequada. Ainda assim, quando seu projeto crescer, você notará a dificuldade em manter e dimensionar sua aplicação corretamente.
 
-Sabemos que uma aplicação Angular é composto por diversos elementos como módulos, componentes, templates e serviços. Já sabendo qual o contexto do nosso projeto então vamos montar uma estrutura por camadas. 
+Sabemos que uma aplicação Angular é composto por diversos elementos como módulos, componentes, templates e serviços. Já sabendo qual o contexto do nosso projeto então vamos montar uma estrutura por camadas.
 
 ![camadas](https://res.cloudinary.com/practicaldev/image/fetch/s--wzT730zQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/66wwb8pp7erk93ti2zlr.png)
 
