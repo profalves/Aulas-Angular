@@ -127,6 +127,10 @@ Como seria essa estrutura da `home.component.html`
 |-- app.module.ts
 ```
 
+### Exemplo de projeto estruturado
+
+[Clique aqui](https://github.com/profalves/Angular-Folder-Structure-Example)
+
 ---
 
 ## Docs
