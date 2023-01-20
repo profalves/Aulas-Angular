@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component</title>
+</head>
+<body>
+    <digital-clock 
+        class="clock"
+        style="
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10rem;">
+            <div style="
+                background-color: lightgray;
+                padding: 30px;
+                border: 15px solid darkblue;
+                border-radius: 30px;">
+                <span class="hours"></span>:
+                <span class="minutes"></span>:
+                <span class="seconds"></span>
+            </div>
+    </digital-clock>
+    <script src="./app.js"></script>
+</body>
+</html>
