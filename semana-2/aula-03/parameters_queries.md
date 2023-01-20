@@ -39,7 +39,7 @@ const appRoutes: Routes = [
 ...
 ```
 
-Se você olhar para URL vamos ver: 
+Se você olhar para URL vamos ver:
 
 ```bash
 http://localhost:4200/pessoa/1
@@ -50,7 +50,6 @@ http://localhost:4200/pessoa/1
 ```html
 <a [routerLink]="['/path', 'parameter']">Link</a>
 ```
-
 
 ### Como acessar um Route Parameter
 
