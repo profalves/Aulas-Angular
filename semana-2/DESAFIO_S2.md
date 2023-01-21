@@ -117,7 +117,6 @@ Escreva testes em sua aplicação, 2 por cada componente abaixo:
 - carrinho
 - header
 - footer
-- minha conta
 - login
 - service
 
