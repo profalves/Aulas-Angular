@@ -90,6 +90,7 @@ Para toda a navegação pode apresentar um `header` e um `footer`, e estes tamb�
 - Deverá ser protegida e somente acessar quando estiver logado.
 - Caso o usuário não esteja logado, deverá ser redirecionado para home redirecionado para a home.
 - No header o ícone/botão para a conta deverá mudar para o nome do usuário logado.
+- Não precisa ter conteúdo em tela por agora
 
 ### Admin
 
