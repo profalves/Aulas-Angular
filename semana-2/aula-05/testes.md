@@ -8,9 +8,8 @@ Uma forma de avaliar a qualidade do software utilizando teste de software é uti
 
 Ao criar o projeto com o Angular CLI, junto com o componente `AppComponent` também é criado o arquivo `src/app/app.component.spec.ts`. Esse arquivo *TypeScript* descreve testes utilizando:
 
-- [**Jasmine**](https://jasmine.github.io/pages/getting_started.html). Por definição *Jasmine* é um framework de teste de software que segue a técnica **BDD (Behaviour Driven Development)**. Embora o Jasmine possa ser utilizado diretamente para testar JavaScript, o Angular utiliza duas outras tecnologias:
-  - [**Karma**](https://karma-runner.github.io/1.0/index.html), uma ferramenta utilizada para executar os testes escritos em Jasmine (por definição, Karma é um test runner); e
-  - [**Protractor**](https://karma-runner.github.io/1.0/index.html), um framework para testes end-to-end (e2e).
+- [**Jasmine**](https://jasmine.github.io/pages/getting_started.html). Por definição *Jasmine* é um framework de teste de software que segue a técnica **BDD (Behaviour Driven Development)**.
+- [**Karma**](https://karma-runner.github.io/1.0/index.html), uma ferramenta utilizada para executar os testes escritos em Jasmine (por definição, Karma é um test runner);
 
 Então, um trecho do arquivo `src/app/app.component.spec.ts`:
 
@@ -399,3 +398,4 @@ Compila e serve a aplicação. Ao utilizar este comando, todos os parâmetros us
 - <https://mjsjunior.medium.com/testes-unit%C3%A1rios-em-sua-aplica%C3%A7%C3%A3o-angular-7838487c6bd3>
 - <https://mjsjunior.medium.com/testando-services-e-requisi%C3%A7%C3%B5es-http-em-aplica%C3%A7%C3%B5es-angular-50f7051cae72>
 - <https://vidafullstack.com.br/angular/introducao-aos-testes-unitarios-com-angular/>
+- <https://blog.angular.io/the-state-of-end-to-end-testing-with-angular-d175f751cb9c>
