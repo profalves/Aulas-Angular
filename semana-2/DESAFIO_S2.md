@@ -27,13 +27,11 @@ Esta semana precisaremos desta estrutura de navegação criada:
   - [Estrutura de navegação](#estrutura-de-navegação)
   - [Critérios de Aceite](#critérios-de-aceite)
     - [Home page](#home-page)
-    - [PDP (Product Details Page)](#pdp-product-details-page)
     - [Carrinho](#carrinho)
     - [Header/Footer](#headerfooter)
       - [Header](#header)
       - [Footer](#footer)
     - [Minha Conta](#minha-conta)
-    - [Admin](#admin)
     - [Login](#login)
     - [Serviço](#serviço)
     - [Testes](#testes)
@@ -45,29 +43,31 @@ Esta semana precisaremos desta estrutura de navegação criada:
 - Cada produto será um card onde terá a imagem do produto, nome, preço e o botão de "adicionar no carrinho". Pode alterar a quantidade de produtos ao ser enviada no carrinho através dele, mas não é obrigatório.
 - Fique a vontade para deixar o site mais próximo do segmento que você escolheu, e pode apresentar mais de uma lista de produtos (novidades, mais vendidos, etc.). Flexivel a no minumo 4 produtos por seção.
 
-### PDP (Product Details Page)
+<!-- ### PDP (Product Details Page)
 
 - Deverá abrir o produto com a imagem mais ampliada.
 - Nome do produto.
 - Preço.
 - Quantidade a ser lançada no carrinho.
-- Botão para adicionar este produto ao carrinho.
+- Botão para adicionar este produto ao carrinho. -->
 
 ### Carrinho
 
 - Os mesmos critérios anteriores:
   - O carrinho será uma lista de produtos onde terá imagem, o nome, preço e quantidade de cada produto
   - Também precisa mostrar o **Total** dos valores dos produtos
-  - Poderá ter o **Desconto** adicionando através de um cupom (Este cupom é uma string que representa exatamente o valor de um desconto)
+  - Poderá ter o **Desconto** adicionando através de um cupom (Este cupom é uma string que representa o valor/porcentagem de um desconto. ex: DESCONTO10, DESCONTO50)
   - Enviar esses cupons no README.
   - Se seu carrinho tem *desconto* então precisa ter **Subtotal** (Total sem desconto)
   - Precisa ter como excluir o produto do carrinho.
   - Precisam ter uma rota para o resumo do pedido (`/cart`), que a lista de produtos adicionados. Nele haverá o botão para ir para a tela de pagamento.
   - Nesta tela será aplicado o cupom de desconto. Então a partir de agora é necessário termos um input para o nome do cupom e o demonstrativo de subtotal, desconto aplicado(valor e/ou porcentagem) e total (total = subtotal - desconto).
-  - Precisam ter uma rota para o pagamento do pedido (`/checkout`), onde deve só passar para a próxima após escolher a forma de pagamento. Ou seja, sem ter uma pagamento escohido o botão de *Finalizar Compra* deverá ficar desabilitado.
+- Precisam ter uma rota para o pagamento do pedido (`/checkout`), onde deve só passar para a próxima após escolher a forma de pagamento. Ou seja, sem ter uma pagamento escohido o botão de *Finalizar Compra* deverá ficar desabilitado.
   - Precisam ter uma rota para a confirmação do pedido(`/confirmation`), onde o usuário será avisado que o seu pedido foi realizado com sucesso e logo abaixo terá os detalhes do mesmo:
     - Lista de itens comprados, com imagem, nome, quantidade e preço em cada
     - Subtotal, Desconto aplicado e Total.
+
+- Um guarda de rota precisa avisar que o usuário está abandonando a tela do carrinho.
 
 ### Header/Footer
 
@@ -92,12 +92,12 @@ Para toda a navegação pode apresentar um `header` e um `footer`, e estes tamb�
 - No header o ícone/botão para a conta deverá mudar para o nome do usuário logado.
 - Não precisa ter conteúdo em tela por agora
 
-### Admin
+<!-- ### Admin
 
 - Basta somente o componente da tela e a rota criada, não precisa ter conteúdo por agora.
 - Deverá ser protegida e somente acessar quando estiver logado.
 - Este usuário deve ser identificado como admin para ter acesso.
-- O acesso deverá ser dado somente atravé da rota e caso o usuário não esteja logado, seja redirecionado para a home.
+- O acesso deverá ser dado somente através da rota e caso o usuário não esteja logado, seja avisado que os dados de login estão incorretos. -->
 
 ### Login
 
@@ -111,7 +111,15 @@ Pelo menos 1 serviço implementado.
 
 ### Testes
 
-Escreva testes em sua aplicação, que cubra 20% de linhas de código e funções.
+Escreva testes em sua aplicação, 2 por cada componente abaixo:
+
+- home
+- carrinho
+- header
+- footer
+- minha conta
+- login
+- service
 
 Para se inspirar e testar a jornada completa, acesse: <https://storetheme.vtex.com/>
 
