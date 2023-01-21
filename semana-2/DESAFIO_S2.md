@@ -103,6 +103,7 @@ Para toda a navegação pode apresentar um `header` e um `footer`, e estes tamb�
 
 - Apenas um fluxo explicito ao clicar um botão para logar ou deslogar.
 - A tela de login deverá ter os campos de login e senha mas a lógica de login não precisa ser concluída. Bastar ter apenas a lógica para mudar o status de logado e não logado.
+- redirecionar para a página principal
 
 ### Serviço
 
