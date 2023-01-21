@@ -35,6 +35,8 @@ Esta semana precisaremos desta estrutura de navegação criada:
     - [Minha Conta](#minha-conta)
     - [Admin](#admin)
     - [Login](#login)
+    - [Serviço](#serviço)
+    - [Testes](#testes)
 
 ### Home page
 
@@ -91,6 +93,7 @@ Para toda a navegação pode apresentar um `header` e um `footer`, e estes tamb�
 
 ### Admin
 
+- Basta somente o componente da tela e a rota criada, não precisa ter conteúdo por agora.
 - Deverá ser protegida e somente acessar quando estiver logado.
 - Este usuário deve ser identificado como admin para ter acesso.
 - O acesso deverá ser dado somente atravé da rota e caso o usuário não esteja logado, seja redirecionado para a home.
@@ -98,7 +101,16 @@ Para toda a navegação pode apresentar um `header` e um `footer`, e estes tamb�
 ### Login
 
 - Apenas um fluxo explicito ao clicar um botão para logar ou deslogar.
+- A tela de login deverá ter os campos de login e senha mas a lógica de login não precisa ser concluída. Bastar ter apenas a lógica para mudar o status de logado e não logado.
 
-> A medida que na semana os conteúdos vão sendo ensinados, iremos acrescentar mais requisitos com a inteção de tornar que este projeto seja trabalhado até o fim do curso.
+### Serviço
+
+Pelo menos 1 serviço implementado.
+
+### Testes
+
+Escreva testes em sua aplicação, que cubra 20% de linhas de código e funções.
 
 Para se inspirar e testar a jornada completa, acesse: <https://storetheme.vtex.com/>
+
+Para envio, suba para o repositório definitivo do seu projeto e envia na resposta da atividade do classroom.
