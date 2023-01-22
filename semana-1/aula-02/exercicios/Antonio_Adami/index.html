@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Cart</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <h1>Seja bem vindo</h1>
+    <h3>Seu carrinho de compras</h3>
+
+    <table>
+        <thead>
+            <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Value</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Subtotal</th>
+            <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+
+    <form id="form">
+        <input name="name" type="text" placeholder="Name" required/>
+        <input name="value" type="number" placeholder="R$" step="0.01"/>
+        <input name="amount" type="number" placeholder=""/>
+        <button type="submit">Confirm</button>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
