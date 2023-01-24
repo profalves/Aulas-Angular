@@ -129,6 +129,12 @@ listarTodosProdutos() {
 
 ---
 
+## Docs
+
+- <https://angular.io/guide/http>
+
+---
+
 ## Desafio
 
-Implementar um service http para buscar os produtos da api e popular o seu frontend.
+Implementar um service http para buscar os produtos da api e popular o seu frontend. Poderá obter os produtos da API do DummyJson e usar interceptors para obter o token no recurso seguro desta api.
