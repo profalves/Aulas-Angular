@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(180, 180, 180);
+        overflow: hidden;
+        margin: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 40%;
+        height: 250px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 10px;
+      }
+      .container h1 {
+        text-align: center;
+      }
+      .container form {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .container form input {
+        width: 250px;
+        height: 32px;
+        border: 1px solid rgb(48, 48, 48);
+        padding: 0 10px;
+        border-radius: 6px;
+      }
+      .container form button {
+        width: 150px;
+        height: 32px;
+        border: none;
+        border-radius: 6px;
+        background-color: rgb(79, 130, 224);
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Newsletter</h1>
+      <form role="form">
+        <input type="text" id="email" placeholder="E-mail" />
+        <button type="submit" id="submit-btn">CADASTRAR</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
