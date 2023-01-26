@@ -1,4 +1,4 @@
-# RxJS Observable com Angular                                                               |
+# RxJS Observable com Angular                                                               
 
 ## Operador Subscribe
 
