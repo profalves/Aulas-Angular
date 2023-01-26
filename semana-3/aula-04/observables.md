@@ -28,13 +28,13 @@ Estamos chamando a função `getUsers()` criada anteriormente e deixamos um `sub
 
 Um cenário ainda melhor seria uma aplicação que use **web sockets**, pois a cada atualização o subscribe iria atualizar o array users novamente, tudo de forma **unidirecional** e sem grande consumo de recursos.
 
-> Se ainda assim você usa Angular em seu projeto e não quer utilizar `Observable` em tudo, existe o operador `toPromise()`
+> ***Atenção***: Antes para aqueles que não queriam utilizar `Observable` em tudo, existia o operador `toPromise()`. Mas este foi depreciado na v8 do Angular (<https://rxjs.dev/deprecations/to-promise>).
 >
 > ```typescript
 >  lista(): Promisse<FotoComponent[]> {
 >    return this.http.get(this.url)
 >      .toPromisse()
->     .then(res => res.json())
+>      .then(res => res.json())
 >      .catch()
 >  }
 >  ```
@@ -47,6 +47,8 @@ Vamos supor que você está tentando fazer o download de um arquivo, mas está e
 Nestes casos podemos utilizar o operador `retry`, que é extremamente simples e funciona da seguinte forma: Se a operação falhar, será executada novamente para tentar completá-la(a quantidade de tentativas é especificada como parâmetro do retry). No código ficaria algo parecido com isso:
 
 ```typescript
+import { retry } from 'rxjs';
+
 @Injectable()
 class downloadFileService {
   ...
@@ -60,6 +62,30 @@ class downloadFileService {
    }
   ...
 }
+```
+
+## Operador mergeMap
+
+Projeta cada valor da origem/fonte para um `Observable` que é mesclado no `Observable` de saída.
+
+```typescript
+import { of, mergeMap, interval, map } from 'rxjs';
+ 
+const letters = of('a', 'b', 'c');
+const result = letters.pipe(
+  mergeMap(x => interval(1000).pipe(map(i => x + i)))
+);
+ 
+result.subscribe(x => console.log(x));
+ 
+// Results in the following:
+// a0
+// b0
+// c0
+// a1
+// b1
+// c1
+// continues to list a, b, c every second with respective ascending integers
 ```
 
 ## Operador switchMap
@@ -119,7 +145,7 @@ class userComponent {
   constructor(private userService: UserService){}
   private users: User[]; // Nossa lista de usuários
   /*Variável que recebe o valor da função handleFilterChange*/
-private filterString: Subject<string> = new Subject<string>();
+  private filterString: Subject<string> = new Subject<string>();
   /*Função que recebe o valor digitado e coloca em nosso Subject*/
   handleFilterChange(value: string) {
     this.filterString.next(value);
@@ -149,5 +175,6 @@ Estes operadores são apenas alguns entre muitos que o Observable possui, com um
 
 - <https://rxjs.dev/guide/overview>
 - <https://angular.io/guide/rx-library>
+- <https://www.learnrxjs.io/>
 - <https://www.tektutorialshub.com/angular/using-switchmap-in-angular/>
 - <https://www.digitalocean.com/community/tutorials/angular-takeuntil-rxjs-unsubscribe>
