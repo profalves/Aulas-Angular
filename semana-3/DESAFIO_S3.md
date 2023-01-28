@@ -1,4 +1,4 @@
-# Desafio da Semana 2
+# Desafio da Semana 3
 
 Você teve a oportunidade de iniciar com a construção de uma jornada simples de compras semana passada. Daremos continuidade construindo um e-commerce por completo até a nossa ultima semana. Com isso, nesta semana será o desenvolvimento das páginas de PDP (Product Detail Page) e PLP (Product List Page), sendo essas cruciais em uma decisão de compra de um usuario.
 
@@ -27,7 +27,7 @@ Esta semana precisaremos desta estrutura de navegação criada:
 
 ## Critérios de Aceite
 
-- [Desafio da Semana 2](#desafio-da-semana-2)
+- [Desafio da Semana 3](#desafio-da-semana-3)
   - [Estrutura de navegação](#estrutura-de-navegação)
   - [Critérios de Aceite](#critérios-de-aceite)
     - [Critérios Anteriores (segunda chance)](#critérios-anteriores-segunda-chance)
