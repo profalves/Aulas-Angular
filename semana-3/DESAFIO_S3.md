@@ -96,7 +96,7 @@ Pelo menos organizar e separar as responsabilidade dos serviços, regras de neg�
 
 ## Pesos
 
-Considerando que os desafio vale **10 pontos**:
+Considerando que o desafio vale **10 pontos**:
 
 1. Critérios Anteriores(segunda chance): **3 pontos**
 2. PDP(Product Details Page): **1 ponto**
