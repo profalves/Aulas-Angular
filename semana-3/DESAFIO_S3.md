@@ -32,9 +32,11 @@ Esta semana precisaremos desta estrutura de navegação criada:
   - [Critérios de Aceite](#critérios-de-aceite)
     - [Critérios Anteriores (segunda chance)](#critérios-anteriores-segunda-chance)
     - [PDP (Product Details Page)](#pdp-product-details-page)
+    - [PLP (Product List Page) e Busca de Produtos](#plp-product-list-page-e-busca-de-produtos)
     - [Login](#login)
     - [Serviço](#serviço)
     - [Testes](#testes)
+    - [Recomendações](#recomendações)
   - [Pesos](#pesos)
   - [Envio](#envio)
 
@@ -52,6 +54,12 @@ Esta semana precisaremos desta estrutura de navegação criada:
   - Preço
   - Quantidade a ser lançada no carrinho.
   - Botão para adicionar este produto ao carrinho.
+
+### PLP (Product List Page) e Busca de Produtos
+
+- Para se ter uma página de lista de produtos, antes precisamos ter as 3 opções no menu, como solicitado anteriormente e que cada uma seja para uma categoria de produtos. Logo os seus produtos deverão ter uma categoria associada a eles.
+- Ao clicar nessa categoria no menu, deverá ser redirecionado para PLP que irá carregar somente os produtos dessa categoria.
+- Precisa também permitir que na home exista um input para pesquisar produtos, onde poderá usar os poderes do `rxjs` para fazer essas buscas, conforme ensinado esta semana.
 
 <!-- ### Minha Conta
 
@@ -82,9 +90,20 @@ Pelo menos organizar e separar as responsabilidade dos serviços, regras de neg�
 
 É necessario que os testes cubram uma margem de 40% de linhas e funcões em seu código. Devem sintetizar com a aplicação e os testes existentes quando os componentes/recursos forem criados serão ignorados.
 
+### Recomendações
+
+> Para se inspirar e testar a jornada completa, acesse: <https://storetheme.vtex.com/>
+
 ## Pesos
 
-Para se inspirar e testar a jornada completa, acesse: <https://storetheme.vtex.com/>
+Considerando que os desafio vale **10 pontos**:
+
+1. Critérios Anteriores(segunda chance): **3 pontos**
+2. PDP(Product Details Page): **1 ponto**
+3. PLP e Busca de produtos na home: **2 pontos**
+4. Login: **2 pontos**
+5. Serviço: **1 ponto**
+6. Testes: **1 ponto**
 
 ## Envio
 
@@ -92,4 +111,4 @@ Para se inspirar e testar a jornada completa, acesse: <https://storetheme.vtex.c
 - Deverá criar um pull/request de uma branch nova para que seja comparada as mudanças somente dessa semana, se possível.
 - **ATENÇÃO**: Para quem utiliza o *JSON-Server*, por favor, publique este para que seja mais fácil rodar seu projeto na avaliação. Instruções: <https://my-json-server.typicode.com/>
 - Qualquer dificuldade, favor informar com antecedencia, estou aqui para ajudar.
-- **Prazo**: Até as *23hs* de domingo, dia 29/02/2023
+- **Prazo**: Até as *23hs* de domingo, dia 29/01/2023
