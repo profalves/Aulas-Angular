@@ -91,6 +91,15 @@ Esta semana precisaremos desta estrutura de navegação criada:
 
 ## Pesos
 
+Considerando que o desafio vale **10 pontos**:
+
+1. Critérios anteriores: 5 pontos
+2. Testes: 1 ponto
+3. Criação de usuário: 1 ponto
+4. Minha conta: 1 ponto
+5. Admin: 1 ponto
+6. Apresentação: 1 ponto
+
 Para se inspirar e testar a jornada completa, acesse: <https://storetheme.vtex.com/>
 
 ## Envio
@@ -99,4 +108,4 @@ Para se inspirar e testar a jornada completa, acesse: <https://storetheme.vtex.c
 - Deverá criar um pull/request de uma branch nova para que seja comparada as mudanças somente dessa semana, se possível.
 - **ATENÇÃO**: Para quem utiliza o *JSON-Server*, por favor, publique este para que seja mais fácil rodar seu projeto na avaliação. Instruções: <https://my-json-server.typicode.com/>
 - Qualquer dificuldade, favor informar com antecedencia, estou aqui para ajudar.
-- **Prazo**: Até as *23hs* de domingo, dia 29/02/2023
+- **Prazo**: Até as *9hs* da manhã de sábado, dia 04/02/2023
