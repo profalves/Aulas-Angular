@@ -1,0 +1,50 @@
+<form [formGroup]="formulario" (ngSubmit)="enviar()">
+  <div>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" formControlName="nome">
+
+    <div *ngIf="formulario.get('nome')?.errors && (formulario.get('nome')?.touched || formulario.get('nome')?.dirty)"
+      style="color: red;">
+      Favor preencha o seu nome
+    </div>
+  </div>
+  <br>
+  <div>
+    <label for="email">Email:</label>
+    <input type="text" id="email" formControlName="email">
+
+    <div *ngIf="formulario.get('email')?.errors && formulario.get('email')?.dirty" style="color: red;">
+      Favor preencher o seu email corretamente (exemplo: email@email.com)
+    </div>
+  </div>
+  <br>
+  <div>
+    <label for="password">Senha:</label>
+    <input type="text" id="password" formControlName="password">
+
+    <div *ngIf="formulario.get('password')?.errors && formulario.get('password')?.dirty" style="color: red;">
+      Favor preencher sua senha
+    </div>
+  </div>
+  <br>
+  <div>
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" formControlName="cep">
+
+    <div *ngIf="formulario.get('cep')?.errors && formulario.get('cep')?.dirty" style="color: red;">
+      Favor preencher seu CEP corretamente
+    </div>
+  </div>
+
+  <p>
+    {{ formulario.get('cep')?.value | json }}
+  </p>
+  <p>
+    {{ formulario.get('cep')?.errors | json }}
+    {{ formulario.get('cep')?.touched | json }}
+    {{ formulario.get('cep')?.dirty | json }}
+  </p>
+
+  <br>
+  <button>Enviar</button>
+</form>
