@@ -63,6 +63,8 @@ Esta semana precisaremos desta estrutura de navegação criada:
 - Após o cadastro o usuário deverá ser redirecionado para a tela de login para realizar o cadastro
 - **ATENÇÃO**: A partir de agora nenhuma compra deverá ser concluida sem o usuário ser cadastrado. Então ele deverá se identificar por login ou se cadastrar, antes de concluir a compra.
 
+***OBS***. Caso queira adicionar um cadastro de produtos pode fazer também que contará como pontos extras e você mesmo pode fazer do seu jeito, contanto que faça sentido com o cadastro de produtos.
+
 ### Minha Conta (Área do cliente)
 
 - Deverá ser protegida e somente acessar quando estiver logado.
