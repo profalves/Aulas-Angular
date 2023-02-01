@@ -74,6 +74,7 @@ Esta semana precisaremos desta estrutura de navegação criada:
   - Telefone
   - Um checkbox que aceita assinar a newsletter do site
 - Botão para logout do site
+- Os dados do login do usuário poderá ser persistidos no `localStorage` do browser
 
 ### Admin
 
