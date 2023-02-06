@@ -1,0 +1,68 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main{
+
+    display: flex;
+    padding: 20px;
+
+}
+
+.produtos{
+
+    width: 50%;
+
+}
+
+.produto{
+
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.produto > *{
+
+    margin: 2px;
+
+}
+
+.carrinho{
+
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.carrinho > .detalhes {
+
+    position: fixed;
+    text-align: center;
+    
+}
+
+#lista-carrinho{
+
+    list-style-type: none;
+
+}
+
+.botao-comprar{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
