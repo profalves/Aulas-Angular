@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section>
+        <h1 class="title">Validador</h1>
+        <br />
+        <p>
+         Informe seus dados.
+        </p>
+      </section>
+      <br />
+
+      <form id="form-subscribe" action="#">
+        <div id="input-group">
+          <input type="text" name="name" id="name" placeholder="First Name" />
+          <hr class="col-md-12" style="margin: 10px;"/>
+          <input type="text" name="last" id="last" placeholder="Last Name" />
+          <hr class="col-md-12" style="margin: 10px;"/>
+          <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" />
+          <button class="btn" type="submit" onclick="valid()">
+           Validar
+          </button>
+         
+        </div>
+      </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
