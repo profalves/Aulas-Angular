@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    // font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    color: #fff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            &::before{
+                background: url(https://images.wallpaperscraft.com/image/single/forest_trees_fog_110131_1920x1080.jpg);
+                position: absolute;
+                filter: blur(5px);
+                content: "";
+                width: 100%;
+                height: 100%;
+                transform: scale(1.1);
+            }
+
+            .clock-container{
+                filter: blur(0px);
+            }
+        }
+}
+.player-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    width: clamp(200px, 100%,  500px);
+
+    .player-cover{
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        border-radius: 50px;
+    }
+
+    .player-display{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        &-title{
+
+        }
+
+        &-author{
+            font-weight: 100;
+        }
+
+        &-timeline{
+            position: relative;
+            width: 100%;
+            height: 20px;
+            margin-top: 5px;
+
+            &::before{
+                content: '';
+                position: absolute;
+                display: block;
+                width: 100%;
+                height: 3px;
+                border-radius: 10px;
+                background-color: #fff;
+                margin-top: 3px;
+            }
+
+            &::after{
+                content: '';
+                position: absolute;
+                display: block;
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+                background-color: #fff;
+            }
+        }
+    }
+}
